@@ -4,6 +4,12 @@
     xmlns:mvc="sap.ui.core.mvc">
     <Text text="Hello World"/>
     <Button 
-        text="Where are you"
+        text="{tufai18n>buttonText}"
         press="onPress"/>
+    <Input
+        id="myinput"
+        value="{/person/age}"
+        valueLiveUpdate="true"
+        description="Hello {/person/age}"
+        width="70%"/>
 </mvc:View>
