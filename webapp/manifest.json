@@ -1,0 +1,6 @@
+{
+  "sap.app":{
+    "id":"tufa.ui5.try",
+    "type":"application"
+  }
+}

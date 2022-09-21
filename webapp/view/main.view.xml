@@ -1,0 +1,9 @@
+<mvc:View
+    controllerName="tufa.ui5.try.controller.main"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <Text text="Hello World"/>
+    <Button 
+        text="Where are you"
+        press="onPress"/>
+</mvc:View>
